@@ -184,6 +184,28 @@ p {
   padding-bottom: 30px;
 }
 
+/* Safety Guidelines */
+#safety-guidelines {
+  height: 400px;
+}
+
+#safety-guidelines .info-img {
+  float: right;
+  width: 50%;
+  background: url("../img/pexels-cottonbro-3957987.jpg") no-repeat center
+    center/cover;
+  min-height: 100%;
+}
+
+#safety-guidelines .info-content {
+  float: left;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
 /* Features */
 .box {
   float: left;
@@ -241,6 +263,33 @@ p {
   float: left;
   margin-right: 20px;
   border-radius: 500%;
+}
+
+/* Contact Form */
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
 }
 
 /* Footer */
